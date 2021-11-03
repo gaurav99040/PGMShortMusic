@@ -8,7 +8,7 @@ function App() {
 
   //  const respons=await fetch('http://localhost:5000/getdata').then()
   const getuser = async () => {
-    const respons = await fetch('http://localhost:5000/getdata', {
+    const respons = await fetch('https://pgmshortmusic.herokuapp.com/getdata', {
       method: 'GET',
       headers: {
         "Content-Type": "application/json",
